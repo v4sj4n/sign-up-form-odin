@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
         <section>
+            <img src="sea-image.jpg" alt="Sea Image">
             <div>
-                <img src="" alt="">
+                <p>Odin Sign up Page</p>
             </div>
         </section>
         <section>
             <div>
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started</p>
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams. <br> Sign up <em>now</em> to get started</p>
                 <p>You <em>know</em> you want to.</p>
             </div>
             <form action="">
-                <fieldset>
-                    <legend>Let's do this</legend>
-                    <label for="first_name">First Name</label>
-                    <input type="text" name="first_name" id="first_name">
-                    <label for="last_name">Last Name</label>
-                    <input type="text" name="last_name" id="last_name">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="number">Number</label>
-                    <input type="number" name="number" id="number">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                    <label for="password">Confirm Password</label>
-                    <input type="password" name="password" id="password">
-                </fieldset>
+                <div>
+                    <div>
+                        <p>Let's do this</p>
+                        <label for="first_name">First Name
+                            <br>
+                            <input type="text" name="first_name" id="first_name">
+                        </label>
+                        <label for="last_name">Last Name
+                            <br>
+                            <input type="text" name="last_name" id="last_name">
+                        </label>
+                        <label for="email">Email
+                            <br>
+                            <input type="email" name="email" id="email">
+                        </label>
+                        <label for="number">Number
+                            <br>
+                            <input type="tel" id="number" name="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+                        </label>
+                        <label for="password">Password
+                            <br>
+                            <input type="password" name="password" id="password">
+                        </label>
+                        <label for="password">Confirm Password
+                            <br>
+                            <input type="password" name="password" id="password">
+                        </label>
+                    </div>
+                </div>
                 <button type="submit">Create Account</button>
             </form>
-            <p>Already have an account? <a>Log in</a></p>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </section>
     </main>
 </body>
+
 </html>
